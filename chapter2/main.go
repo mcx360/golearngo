@@ -1,5 +1,7 @@
 package main
 
+//testing standard output with fmt library in golang
+
 import "fmt"
 
 func main() {
