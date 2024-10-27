@@ -17,5 +17,4 @@ func main() {
 	//we can pass a slice of ints to the add function using an ellipsis
 	xs := []int{3, 3, 3}
 	fmt.Println(add(xs...))
-
 }
