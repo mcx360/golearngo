@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//What is the value of x after running this program
+//What is the value of x after running this program?
 
 func square(x *float64) {
 	*x = *x * *x
