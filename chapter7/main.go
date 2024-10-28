@@ -22,4 +22,13 @@ func main() {
 	//show how methods work again, but with rectangle this time
 	r := Rectangle{0, 0, 10, 10}
 	fmt.Println(r.rectangleArea())
+
+	//testing embedded types
+	a := new(Android)
+	a.Person.Talk()
+
+	//But we can also call any Person methods directly on the Android
+	a.Talk()
+	a.Name = "Bob"
+	a.Talk()
 }
