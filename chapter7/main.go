@@ -31,4 +31,17 @@ func main() {
 	a.Talk()
 	a.Name = "Bob"
 	a.Talk()
+
+	//testing how interfaces work
+	fmt.Println(totalArea(&c, &r))
+
+	//We can create a MultiShape like this
+	shapes := Multishape{
+		shapes: []Shape{
+			&Circle{0, 0, 5},
+			&Rectangle{0, 0, 10, 10},
+			&c,
+		},
+	}
+	fmt.Println(totalArea(&shapes))
 }

@@ -11,3 +11,9 @@ import "math"
 func (c *Circle) area() float64 {
 	return math.Pi * c.r * c.r
 }
+
+func (r *Rectangle) area() float64 {
+	l := distance(r.x1, r.y1, r.x1, r.y2)
+	w := distance(r.x1, r.y1, r.x2, r.y1)
+	return l * w
+}
