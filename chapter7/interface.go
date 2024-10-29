@@ -2,6 +2,7 @@ package main
 
 type Shape interface {
 	area() float64
+	perimeter() float64
 }
 
 // Because both of our shapes have

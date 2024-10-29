@@ -1,0 +1,7 @@
+1.What’s the difference between a method and a function?
+A method has a reciever whereas a function does not, which alows methods to be called using the . operator
+
+2.Why would you use an embedded anonymous field instead of a normal named
+  field?
+  An embedded anonymous field symobols a "is a " relationship while a named field symbols a "has a" relationship
+

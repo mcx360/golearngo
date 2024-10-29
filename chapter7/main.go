@@ -44,4 +44,9 @@ func main() {
 		},
 	}
 	fmt.Println(totalArea(&shapes))
+
+	//testing exercise3 functions
+	fmt.Println(r.perimeter())
+	fmt.Println(c.perimeter())
+
 }
